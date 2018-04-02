@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>A Simple Wordladder</title>
+</head>
+<body>
+<form action="login" method="post">
+    <p>Dictionary file name：<input type="text" name="filename"/>
+    </p>
+    <p>word1：<input type="text" name="word1"/>
+    </p>
+    <p>word2：<input type="text" name="word2"/>
+    </p>
+    <p><button onclick="show_ans()">Search</button>
+    </p>
+</form>
+
+</body>
+</html>
+<script>
+    function show_ans(){
+        alert(document.getElementsByName("word1")[0].value);
+       alert(document.getElementsByName("word2")[0].value);
+    }
+
+
+</script>
