@@ -1,4 +1,4 @@
-package org.sang.demo;
+package pers.wl;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

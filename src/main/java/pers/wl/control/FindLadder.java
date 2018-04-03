@@ -1,8 +1,7 @@
-package org.sang.demo.control;
+package pers.wl.control;
 
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotEmpty;
-
 
 
 public class FindLadder {

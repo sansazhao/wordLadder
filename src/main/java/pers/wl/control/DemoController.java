@@ -1,4 +1,4 @@
-package org.sang.demo.control;
+package pers.wl.control;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;

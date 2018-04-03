@@ -1,10 +1,4 @@
-package org.sang.demo.control;
-
-
-import org.hibernate.validator.constraints.NotEmpty;
-import org.hibernate.validator.constraints.Length;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Configuration;
+package pers.wl.control;
 
 
 import java.io.*;
