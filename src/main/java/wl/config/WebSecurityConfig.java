@@ -36,7 +36,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/", "/home").permitAll()
                 //其他地址的访问均需验证权限
                 .anyRequest().authenticated()
-                .antMatchers("/admin/**","hello").hasRole("ADMIN")
+                .antMatchers("/admin/**").hasRole("ADMIN")
                 .and()
                 .formLogin()
                 //指定登录页是"/login"
@@ -55,6 +55,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         auth.userDetailsService(userDetailsService());
         //内存授权用户,可直接调试
         auth.inMemoryAuthentication()
-                .withUser("user").password("123456").roles("ADMIN");
+                .withUser("admin").password("123456").roles("ADMIN");
     }
 }
